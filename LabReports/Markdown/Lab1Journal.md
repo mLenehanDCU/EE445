@@ -6,15 +6,15 @@ File name: NoName-L01
 
 12:26
 
-First recording (starts at event labeled 'Dominant arm'): Four
+First recording (starts at event labelled 'Dominant arm'): Four
 clench-release-wait cycles; fourth clench is maximum force.
 
-Second recording (starts at event labeled 'Nondominant arm'): Four
+Second recording (starts at event labelled 'Non-dominant arm'): Four
 clench-release-wait cycles; fourth clench is maximum force.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-L01 DATA REPORT
+# L01 DATA REPORT
 
 Student’s Name: Michael Lenehan
 
@@ -22,7 +22,7 @@ Lab Section: L01
 
 Date: 8/2/2019
 
-**I. Data and Calculations**
+## I. Data and Calculations
 
 Subject Profile
 
@@ -34,7 +34,7 @@ Gender: Male \quad Age: 22 \quad Dominant arm: Right
 performed, which may not be the case for your lab. Please disregard any
 references to excluded recordings. 
 
-A. EMG Measurements
+### A. EMG Measurements
 
   -------------- ---------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------
   ^***Clench***^      ^***Dominant\ arm***^                                                                          ^***Nondominant\ arm***^                                                                      
@@ -44,14 +44,13 @@ A. EMG Measurements
   ^\#4^          ^Mean\ =\ 0.32289\ mV-sec^                                                                     ^Mean\ =\ 0.32036\ mV-sec^   
   -------------- ---------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------
 
-B. Use the mean measurement from the table above to compute the
-percentage increase in EMG activity recorded between the weakest clench
-and the strongest clench of the Dominant arm.
+### B. Use the mean measurement from the table above to compute the percentage increase in EMG activity recorded between the weakest clench and the strongest clench of the Dominant arm.
 
-Calculation:
-Answer: 113.326% Increase
+**Calculation:** $\frac{0.32289-0.15136}{0.15136}\times100$
 
-C. Tonus Measurements
+**Answer:** 113.326% Increase
+
+### C. Tonus Measurements
 
   ---------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------- -------------------------- ---------------------------- --
   ^**Between\ Clenches\ \#**^                                                                    ^***Dominant\ arm***^                                                                          ^***Nondominant\ arm***^                                
@@ -60,76 +59,78 @@ C. Tonus Measurements
   ^3-4^                                                                                          ^Mean\ =\ 0.04813\ mV-sec^                                                                     ^Mean\ =\ 0.02080\ mV-sec^   
   ---------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------- -------------------------- ---------------------------- --
 
-\
+## II. Questions
 
-\
+### D. Compare the mean measurement for the right and left maximum clench EMG cluster.
 
-**II. Questions**
+**Are they the same or different?** Same \underline{Different}
 
-\
-D. Compare the mean measurement for the right and left maximum clench
-EMG cluster.\
+**Which one suggests the greater clench strength?** \underline{Right} Left Neither
 
-Are they the same or different? Same \underline{Different}
+**Explain**
 
-Which one suggests the greater clench strength? \underline{Right} Left Neither
+The higher measurement values found in section A for the Dominant Arm (Right)
+suggest that the clench strength is higher than in the Non-Dominant Arm (Left).
 
-Explain
+### E. What factors in addition to sex contribute to observed differences in clench strength?
 
-As the right hand is the dominant hand for the subject, it is in use
-more often for, and as such has a greater clench strength
+In addition to sex, factors such as muscle size, age, and average muscle use can
+have an affect on the observed differences in clench strength.
 
-E. What factors in addition to sex contribute to observed differences in
-clench strength?
+### F. Does there appear to be any difference in tonus between the two forearm clench muscles? \underline{Yes} No
 
-F. Does there appear to be any difference in tonus between the two
-forearm clench muscles? \underline{Yes} No
-
-Would you expect to see a difference? Does Subject’s gender influence
-your expectations? Explain.
+**Would you expect to see a difference? Does Subject’s gender influence
+your expectations? Explain.**
 
 It would be expected that there would be a slight difference between the
-dominant and nondominant muscles, as
+dominant and non-dominant muscles, as the dominant arm is in more constant use
+than the non-dominant.
 
-G. Explain the source of signals detected by the EMG electrodes.
+### G. Explain the source of signals detected by the EMG electrodes.
 
-H. What does the term “motor unit recruitment” mean?
+The EMG signals detected by the electrodes are due to the propagation of motor
+nerve impulses. The simultaneous propagation of theses impulses through muscle
+fibers cause large enough voltage differences in the skin to be detectable via
+the electrodes.
+
+###H. What does the term “motor unit recruitment” mean?
 
 Motor unit recruitment refers to the increase in available motor units
 in a muscle when and increase in the contraction strength of that muscle
 is required.
 
-I. Define skeletal muscle tonus.
+### I. Define skeletal muscle tonus.
 
 Skeletal muscle tonus is a phenomenon in which skeletal muscle maintains
 a constant slight tension, maintaining the muscle in a state or
 readiness.
 
-J. Define electromyography.
+### J. Define electromyography.
 
 Electromyography is the detection, amplification and recording of skin
 voltages, which are produced, and vary, due to contractions of skeletal
 muscle.
 
-**III.  OPTIONAL Active Learning Portion**
+## III.  OPTIONAL Active Learning Portion
 
-***A.Hypothesis***
+### A. Hypothesis
 
-***B.Materials***
+### B. Materials
 
-\
+The following materials are required for the completion of this lab:
 
-***C.Method***
+- BIOPAC Electrode Lead Set (SS2L)
+- BIOPAC Disposable Electrode (EL503), 6 Electrodes per Subject
+- BIOPAC Skin Prep Gel (ELPREP)
+- BIOPAC Headphones (OUT1/OUT1A)
+- BIOPAC Lab System: BSL 4 software, MP3x hardware
 
-***D.Set*** ***Up***
+### C. Method
 
-***E.Experimental Results***
+
+
+### D. Set Up
+
+### E. Experimental Results
 
 **End of Lesson 1 Data Report**
-
-\
-
-BSL 4.0 DRL01-04032012
-
-\
-
