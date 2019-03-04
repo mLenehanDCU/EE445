@@ -111,26 +111,4 @@ Electromyography is the detection, amplification and recording of skin
 voltages, which are produced, and vary, due to contractions of skeletal
 muscle.
 
-## III.  OPTIONAL Active Learning Portion
-
-### A. Hypothesis
-
-### B. Materials
-
-The following materials are required for the completion of this lab:
-
-- BIOPAC Electrode Lead Set (SS2L)
-- BIOPAC Disposable Electrode (EL503), 6 Electrodes per Subject
-- BIOPAC Skin Prep Gel (ELPREP)
-- BIOPAC Headphones (OUT1/OUT1A)
-- BIOPAC Lab System: BSL 4 software, MP3x hardware
-
-### C. Method
-
-
-
-### D. Set Up
-
-### E. Experimental Results
-
 **End of Lesson 1 Data Report**
