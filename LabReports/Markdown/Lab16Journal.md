@@ -112,22 +112,24 @@ Complete Table 16.6 with the Delta T for each condition, and calculate the means
 
 Complete the calculation in Table 16.7 using "Right arm, seated" data.
 
+No available data for the completion of Table 16.7
 
 # II. Questions:
 
 ## 1. Note the difference in systolic pressure value between when the sound actually began, was detected by the stethoscope transducer, and was recorded, and the time when the observer first heard the sound and pressed the event marker keystroke. (Example: 141 mmHg – 135 mmHg = 6 mmHg). What factors could account for this difference? Would the observed difference be the same if measured by another observer? Explain your answer.
 
-
+This difference may come from a delay in the detection of the sound. With
+different subject, the observed difference would not be the same as there
+may be a difference in this sound detection delay.
 
 ## 2.
 
 **a) Does your systolic and/or diastolic arterial pressure change as your heart rate increases?**
 
 Systolic arterial pressure increases with an increased heart rate, as seen in
-table 16.2 above.
-
-Diastolic pressure decreases with an increased heart rate, as seen in table 16.3
-above, however there should be a small increase, or no change observed.
+Table 16.2 above. Diastolic pressure also increased, as seen in Table 16.3.
+There is less of an increase seen in the diastolic pressure than in the systolic
+pressure.
 
 **(b) How does this change affect your pulse pressure?**
 
@@ -141,35 +143,53 @@ in a normal healthy individual as their heart rate increases?**
 
 ## 3. Give three sources of error in the indirect method of determining systemic arterial blood pressure.
 
+Sources of error may be:
 
+- Inability of the observer to correctly identify sounds.
+- Incorrect placement of the cuff.
+- Quality and calibration of the equipment which is being used.
 
 ## 4. Use an equation that relates flow, pressure, and resistance to define mean arterial pressure:
 
+$F=P/R$ relates flow to pressure and resistance.
 
+As pressure can be given by the mean arterial pressure, the mean arterial
+pressure in terms of the flow and resistance can be given as: $MAP=F\*P$
 
 ## 5. Blood flow (liters per min.) through the pulmonary circuit equals blood flow through the systemic circuit, but pulmonary resistance to flow is 5 times less than the systemic resistance to flow. Using the equation in Question 4, show that mean pulmonary pressure is 5 times less than mean systemic pressure.
 
 
-
 ## 6. Define the first and second sounds of Korotkoff. Which sound is used to approximate systolic pressure and which sound is used to approximate diastolic pressure?
 
+The first Korotkoff sound is heard as a tapping. This sound is taken as an
+approximation of the systolic pressure.
 
+The second Korotkoff sound comes as the sound which has been increasing in
+intensity becomes suddenly muffled. This is taken as an approximation of the
+diastolic pressure.
 
 ## 7. Why is mean arterial pressure not equal to (systolic pressure – diastolic pressure)/2?
 
-
+In a cardia cycle, more time is spent in diastole then in systole, therefore
+arterial pressure cannot be taken as a simple average of the two values, and
+must be approximated by the given formula of $MAP = \frac{(systolic pressure +
+2\*diastolic pressure)}{3}$.
 
 ## 8. Define pulse pressure. Explain, in terms of changes in systolic and diastolic pressures, why pulse pressure increases during exercise.
 
+$Pulse Pressure = Systolic Pressure - Diastolic Pressure$
 
+As mentioned in Q2 part b, pulse pressure increases, as the systolic pressure
+has increased more than the diastolic pressure.
 
-## 9. Give one reason why blood pressure in the left armmay  be different than blood pressure in the right arm of a Subject at rest.
+## 9. Give one reason why blood pressure in the left arm may  be different than blood pressure in the right arm of a Subject at rest.
 
-
+This may be due to a difference in resistance experienced, therefore giving a
+difference in the $F=P/R$ relationship.
 
 ## 10. Name an artery other than the brachial that could be used for an indirect measurement of blood pressure and explain your choice.
 
-
+The femoral artery may also be used for blood pressure measurement.
 
 End of Lesson 16 Data Report
 

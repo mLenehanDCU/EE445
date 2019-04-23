@@ -34,12 +34,7 @@
 - Has to be internal movement of electrons through metal
  - Corrosion current
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s4/s4p1.png)
 
 ## Half-Cell Potential
 
@@ -59,24 +54,14 @@
   - temperature
   - Note: potential varies across electrolyte
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s4/s4p2.png)
 
 - To avoid problem of not being able to directly measure an individual half-cell
   potential electrochemists adopt convention that H electrode has half-cell
   potential of 0, others measured relative to this
 - Values are for 0 current flowing between cell and electrolyte
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s4/s4p3.png)
 
 ## Polarisation
 
@@ -122,3 +107,24 @@ If current is flowing between electrode and electrolyte
  - Electrode immersed in electrolyte bath in which principal anion of
    electrolyte is $CL^{-}$
 -
+
+
+![](images/s4/s4p4.png)
+
+![](images/s4/s4p5.png)
+
+![](images/s4/s4p6.png)
+
+![](images/s4/s4p7.png)
+
+![](images/s4/s4p8.png)
+
+![](images/s4/s4p9.png)
+
+![](images/s4/s4p10.png)
+
+![](images/s4/s4p11.png)
+
+![](images/s4/s4p12.png)
+
+![](images/s4/s4p13.png)

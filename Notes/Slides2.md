@@ -14,17 +14,12 @@
  - Removes waste
  - Responds to electrochemical impulses
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s2/s2p1.png)
 
 ### Average Human Cell
 
 - Nearly Spherical
-- $20\micro m$ diameter
+- $20 \mu m$ diameter
 - Semipermeable outer membrane, 100 Angstrom units thick
 - Inner fluid, cytoplasm, comprising of organelles and inclusions
  - Organelles: Small internal living organs of cell
@@ -44,20 +39,23 @@
    - Relative concentration of internal and external substances
    - Electrical potential inside/outside cell
    - Pressure difference across membrane
+ - Active Transport:
+  - Carrier transports substance across membrane
+  - Moves from lower to higher contentration
+ - Pinocytosis
+  - Similar to Active Transport
+  - Carrier not used
+  - Membrane can engulf certain substances resting on it
+  - Forms capsule, travels through membrane to cytoplasm
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s2/s2p2.png)
 
 ### Resting Potential
 
 - Cell membrane separates interstitial fluid from intracellular fluid,
   maintaining markedly different concentrations of ions inside/outside cell
- - Concentration of Sodium and Chloride ions much higher in interstitial fluid
- - Concentration of Potassium ions much higher in intracellular fluid
+ - Concentration of Sodium and Chloride ions higher in interstitial fluid
+ - Concentration of Potassium ions higher in intracellular fluid
  - Skeletal muscle cells:
   - Insidel cell: Negative potential difference, approx. -90mV, relative to
   interstitial fluid
@@ -70,12 +68,7 @@
 - Metabolic proceses of cell actively transport sodium ions out of cell,
   potassium ions into cell, opposition to chemical gradient
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s2/s2p3.png)
 
 ### Action Potential
 
@@ -101,14 +94,9 @@
  - Mass of ions
  - Resistance to movement through fluid/across membrane
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s2/s2p4.png)
 
-- Ionic concentration gradient across membrane maintained by sodium and
+- Ionic concentration gradient across membrane maintained by sodium-
   potassium pump
  - Sodium withdrawn from cell against both charge and concentration gradients
    supported by high-energy phosphate compound ATP
@@ -143,10 +131,5 @@
 - Can measure potential differences by placing electrodes on outer surface of
   body, amplifying voltages with sensitive amplifiers
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s2/s2p5.png)
 

@@ -6,27 +6,17 @@
  - Smaller right-hand pump forces blood through lungs
  - Larger more powerful left-hand pump force blood through rest of body
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p1.png)
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p2.png)
 
 - Blood flows from heart to aorta
  - Large arteries to head, digestive organs, limbs
 - Arteries branch to smaller arterioles
-- Arterioles to tiny capillaries (10\micro m)
+- Arterioles to tiny capillaries $(10\mu m)$
  - discharges load of dissolved food, oxygen into body cells
 - Cells deposit waste materials (eg CO2) into bloodstream
- - Blood turns frm bright red to dull red/blue
+ - Blood turns from bright red to dull red/blue
 - Blood flows back to heart
  - From capillaries to venules
  - Venules to larger veins
@@ -50,12 +40,7 @@
 - Left, right sides of heart separated by septum - dividing wall of tissue
 - Walls of heart made entirely of muscle surrounding four hollow chambers
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p3.png)
 
 - Heart contracts 70 times per minute to squeeze blood around circulatory system
 - Diastole
@@ -86,18 +71,13 @@
  - Aortic and pulmonary valve close
  - Indicates onset of diastole
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p4.png)
 
 ## Electric Potentials generated within the heart - The ECG Waveform
 
 - Sinoatrial (SA) node
  - Bundle of nerves in right atrium
- - Funtion: start heart beat, assess rhythm
+ - Function: start heart beat, assess rhythm
  - Pulses generated stimulate contraction of atrial muscles
 - Atrioventricular (AV) node
  - Pulses from SA travel along conducting fibers in atrium
@@ -128,12 +108,7 @@
 - **U-Wave** may be after-potentials of ventricular muscle or repolarization of
   Purkinje fibres
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p5.png)
 
 - Useful Terms:
  - **Brachycardia** - Abnormally slow heartbeat
@@ -156,12 +131,7 @@
   - Part of Axon adjacent Soma
   - Point where Action Potentials generated
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p6.png)
 
 - Myelin
  - Fatty Insulating substance coating axons and dendrites of some neurons
@@ -179,12 +149,7 @@
 - Motor Neurons
  - Transmit impulses to muscle tissue
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p7.png)
 
 - Single axon can have multiple branches, making synaptic connections with many
   postsynaptic cells
@@ -199,12 +164,7 @@
  - Small gap between axon terminal of presynaptic neuron and membrane of
    postsynaptic cell
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p8.png)
 
 - Nerve impulse (action potential) arrives at axon terminal
  - Activates voltage-gated calcium channels in cell membrane
@@ -230,12 +190,7 @@
   - E.g: presynaptic neuron fires quickly multiple times, driving membrane
     potential above threshold
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p9.png)
 
 - Must be some way to "turn off" signal once sent (clear synaptic cleft of
   neurotransmitter for synapse to function effectively
@@ -278,12 +233,7 @@
  - Lack versatility, flexibility and capacity for signal modulation seen in
    chemical synapses
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p10.png)
 
 ## The Nervous System - Operation and Function
 
@@ -325,12 +275,7 @@
      - Part of cortex responsible for hearing, storage of long-term memories of
        past events and sensations
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p11.png)
 
  2. Cerebellum (major feature of hindbrain of vertebrates
   - Responsible for:
@@ -362,19 +307,9 @@
 - Basic frequency of aroud 10Hz markedly reduces in amplitude with increase in
   mental activity called alpha rhythm
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p12.png)
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p13.png)
 
 ## The Nervous System - Muscle action and the electromyogram EMG
 
@@ -391,12 +326,7 @@
 - Muscle fibres not clumped together in one part of muscle
  - Fibres of different units interlaced
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s3/s3p14.png)
 
 - Individual neuron can only exist in polarised/depolarised state:
  - Only transmits one/other of these potential levels to motor end plates

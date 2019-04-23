@@ -4,12 +4,7 @@
  - smaller right hand pump forces blood through lungs
  - larger more powerful left hand pump force blood through rest of body
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p1.png)
 
 - Blood pressure values in various chambers of the heart and in peripheral
   vascular system heko ohysician determine functional integrity of
@@ -18,12 +13,7 @@
   (non-invasive) techniques with different suitability is for particular
   clinical situations
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p2.png)
 
 ## Heart sound and the correlated electrical and mechanical activity
 
@@ -33,12 +23,7 @@
  - mechanical operation od valves
  - resultant blood pressure
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p3.png)
 
 ## Direct measure of blood pressure - Invasive
 
@@ -50,22 +35,12 @@
  - smallest form factor and highest freq response for direct measurement but at
    higher cost
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p4.png)
 
 - Micro-electro-mechanical system (MEMS)
  - disposable
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p5.png)
 
 - External: external pressure transducer (strain-gauge) on diaphragm with
   fluid-filled catheter to the source
@@ -78,12 +53,7 @@
  -
  -
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p6.png)
 
 - External BP Sensor
  - Simplified lumped-parameter analogous circuit shown:
@@ -95,12 +65,7 @@
 -
 -
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p7.png)
 
 - Using KVL:
  -
@@ -109,24 +74,14 @@
 
 - Freq response for catheter-sensor system with/out bubbles:
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p8.png)
 
 - Natural freq decreases from 91 to 22Hz and the damping ratio increases
 -
 -
 -
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p8.png)
 
 - System freq bandwifth should at least factor a x10 greater than the base freq
   of signal to give 10th harmonic of BP waveform
@@ -156,12 +111,7 @@
   exceeds the pressure of the cuff
 -
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p9.png)
 
 - When compressive pressure Pc applied to a limb, the pressure is transmitted to
   the underlying blood vessels so the pressure applied to the wall of the artery
@@ -175,12 +125,7 @@
 - As pressure in cuff reduced from full occlusion, Korotkoff sounds heard
   through
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p10.png)
 
 - Korotkoff method of blood prerssure measurement:
  - Inflate pressure cuff on upper arm to a pressure well above the systolic
@@ -231,12 +176,7 @@
   filter amp should be in order 800-900 to fill the ADC range of a typical
   microcontroller
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p11.png)
 
 ## Indirect measures of blood pressure - Doppler (ultrasoud) method
 
@@ -249,12 +189,7 @@
 -
 -
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p12.png)
 
 ## Indirect measures of blood pressure - Other methods
 
@@ -297,12 +232,7 @@
 - To eliminate pre-ejection period frm calculated PTT, second photoplethysmo...
 -
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p13.png)
 
 - Let:
  - T
@@ -325,17 +255,22 @@
 - Diagram shows PPT calculated via peak of first derivative of PPG waveform, and
   PIR is ratio of PPG peak intensity In to PPG vally intensity Il of one cardiac
   cycle
-- PIR reflects arterial diameter change \delta d during one cardiac cycle frm
+- PIR reflects arterial diameter change $\delta$ d during one cardiac cycle frm
   systole to diastole:
  - $PIR = $
- - where \alpha is a constant related to optical absorption coefficients in the
+ - where $\alpha$ is a constant related to optical absorption coefficients in the
    PPG light path
 
-\begin{figure}[H]
-\includegraphics{}
-\centering
-\caption{}
-\label{}
-\end{figure}
+![](images/s7/s7p14.png)
 
+![](images/s7/s7p15.png)
 
+![](images/s7/s7p16.png)
+
+![](images/s7/s7p17.png)
+
+![](images/s7/s7p18.png)
+
+![](images/s7/s7p19.png)
+
+![](images/s7/s7p20.png)
