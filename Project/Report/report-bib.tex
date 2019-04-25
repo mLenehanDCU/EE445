@@ -87,23 +87,133 @@
 \listoftables
 \listoffigures
 %\end{document}
-\chapter{Introduction}\label{introduction}
+\hypertarget{introduction}{%
+\chapter{Introduction}\label{introduction}}
 
-\section{Aims}\label{aims}
+\hypertarget{aims}{%
+\section{Aims}\label{aims}}
 
-\chapter{Hardware}\label{hardware}
+The aim of this project is to implement a connected ECG sensing system,
+utilising the Texas Instruments MSP432 Microcontroller, and IoT
+analytics platform ThingSpeak. The system must take heart rate
+measurements, via a designed bioamplifier circuit using the standard
+lead configurations, using the MSP432 Microcontroller. These
+measurements must then be transmit to ThingSpeak via a HTTP POST
+command, at which point they can be analysed using MATLAB scripts on
+ThingSpeak. Finally, results must be compared to that of another group.
 
-\section{Components}\label{components}
+This project aims to improve the students familiarity with bioamplifier
+circuits, measurements of biopotential values, and with connected
+services, in the ThingSpeak implementation.
 
-\section{Amplifier Design}\label{amplifier-design}
+\hypertarget{hardware}{%
+\chapter{Hardware}\label{hardware}}
 
-\chapter{Software}\label{software}
+\hypertarget{components}{%
+\section{Components}\label{components}}
 
-\section{ECG Sampling}\label{ecg-sampling}
+\hypertarget{amplifier-design}{%
+\section{Amplifier Design}\label{amplifier-design}}
 
-\section{ThingSpeak Integration}\label{thingspeak-integration}
+\hypertarget{software}{%
+\chapter{Software}\label{software}}
 
-\section{MATLAB Script}\label{matlab-script}
+There are threen main aspects to the software portion of this project.
+These are the ECG Sampling, the transfer of sampled data to ThingSpeak,
+and the MATLAB analysis of the data available on ThingSpeak.
+
+\hypertarget{ecg-sampling}{%
+\section{ECG Sampling}\label{ecg-sampling}}
+
+The ECG sampling code implementaion, as used within this project, was
+performed at a frequecny of 50Hz (one sample every 20ms). This frequency
+was chosen in part due to limitations imposed by ThingSpeak, which could
+not allow for a higher frequency to be chosen for single data entries.
+
+In order to take measurements from the bioamplifier circuit, an input
+pin must first be defined. An integer variable must be defined in order
+to store the measured value.
+
+\lstset{
+    caption=Analog Input Pin Definition,
+    basicstyle=\footnotesize, frame=tb,
+    xleftmargin=.2\textwidth, xrightmargin=.2\textwidth
+}
+\begin{lstlisting}[language=C]
+int AnalogPin = A6; //P4.7
+int reading = 0;
+\end{lstlisting}
+
+In order to take the reading, the analogRead() method must be called.
+This method allows the MSP to read in analog values from 0 to 5V,
+assigning them a value between 0 and 1023. An if statement is used to
+ensure that the readings are taken at the appropriate timing.
+
+\lstset{
+    caption=Analog Read,
+    basicstyle=\footnotesize, frame=tb,
+    xleftmargin=.1\textwidth, xrightmargin=.1\textwidth
+}
+\begin{lstlisting}[language=C]
+if(millis() - lastReadingTime > updateThingSpeakInterval){
+    reading = analogRead(AnalogPin);
+}
+\end{lstlisting}
+
+\hypertarget{thingspeak-integration}{%
+\section{ThingSpeak Integration}\label{thingspeak-integration}}
+
+ThingSpeak integration is performed using the ThingSpeakClient.ino code
+example found in the Energia git repository\cite{thingino}. This example
+works much in the same way as the Energia WifiWebClient example code,
+however, it has code included to update ThingSpeak input fields, in the
+required format.
+
+In order to correctly utilize this code, the ThingSpeak write API key
+must be included in the code, as a String value. An update interval
+value is used in order to set how often data is sent to ThingSpeak from
+the client. For this implementation, this has been set to 20ms, as this
+was the lowest accepted value.
+
+\lstset{
+    caption=ThingSpeakClient.ino write API key and update interval,
+    basicstyle=\footnotesize, frame=tb,
+    xleftmargin=.1\textwidth, xrightmargin=.1\textwidth
+}
+\begin{lstlisting}[language=C]
+String writeAPIkey = ""; //Enter channel's write API key
+                        //between the ""
+const int updateThingSpeakInterval = 20; //20ms time interval
+\end{lstlisting}
+
+The startWifi() method is called from within the codes setup, and
+connects to the network of the input ssid and password, printing a
+success message to the serial monitor once connected.
+
+\lstset{
+    caption=ThingSpeakClient.ino startWifi(),
+    basicstyle=\footnotesize, frame=tb,
+    xleftmargin=.1\textwidth, xrightmargin=.1\textwidth
+}
+\begin{lstlisting}[language=C]
+char ssid[] = ""; // your network SSID (name)
+char pass[] = ""; // your network password
+WiFiClient client;
+void startWiFi(){
+    WiFi.disconnect();
+    client.stop();
+    ...
+    if(WiFi.begin(ssid, pass) == 0){
+    ...
+    } else {
+    Serial.println("LaunchPad connected to network using DHCP");
+    ...
+    }
+}
+\end{lstlisting}
+
+\hypertarget{matlab-script}{%
+\section{MATLAB Script}\label{matlab-script}}
 \bibliography{References/biblio}{}
 \bibliographystyle{IEEEtran}
 \end{document}
