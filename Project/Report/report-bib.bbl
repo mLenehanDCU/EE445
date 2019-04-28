@@ -21,10 +21,39 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{tweed}
+\BIBentryALTinterwordspacing
+D.~Tweed, ``Pratient protection resistors in the biopotential amplifiers,''
+  2014. [Online]. Available:
+  \url{https://electronics.stackexchange.com/questions/123548/patient-protection-resistors-in-the-biopotential-amplifiers}
+\BIBentrySTDinterwordspacing
+
+\bibitem{analog}
+\BIBentryALTinterwordspacing
+{Analog.com}, ``Ad620 technical datasheet,'' 2019. [Online]. Available:
+  \url{https://www.analog.com/media/en/technical-documentation/data-sheets/ad620.pdf.}
+\BIBentrySTDinterwordspacing
+
+\bibitem{BioAmp}
+J.~H. Nagel, ``Biopotential amplifiers,'' 2000.
+
+\bibitem{biopacl5}
+\BIBentryALTinterwordspacing
+R.~Pflanzer and W.~McMullen, ``Biopac student lab lesson 5 electrocardiography
+  (ecg).'' [Online]. Available:
+  \url{https://loop.dcu.ie/pluginfile.php/2050301/mod_resource/content/0/L05%20Introduction.pdf}
+\BIBentrySTDinterwordspacing
+
 \bibitem{thingino}
 \BIBentryALTinterwordspacing
 R.~Inant, ``{ThingSpeakClient.ino},'' 2013. [Online]. Available:
   \url{https://github.com/energia/Energia/blob/master/libraries/SimplelinkWifi/examples/ThingSpeakClient/ThingSpeakClient.ino}
+\BIBentrySTDinterwordspacing
+
+\bibitem{matlabbulk}
+\BIBentryALTinterwordspacing
+{MathWorks}, ``Matlab bulk-write json data.'' [Online]. Available:
+  \url{https://uk.mathworks.com/help/thingspeak/bulkwritejsondata.html}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

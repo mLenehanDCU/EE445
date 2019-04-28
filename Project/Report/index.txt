@@ -7,4 +7,5 @@ Software/software.md
 Software/ECGSampling.md
 Software/thingspeak.md
 Software/matlab.md
+Software/improvements.md
 Ethics/ethics.md

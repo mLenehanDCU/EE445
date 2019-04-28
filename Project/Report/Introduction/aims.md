@@ -11,4 +11,6 @@ group.
 
 This project aims to improve the students familiarity with bioamplifier
 circuits, measurements of biopotential values, and with connected services, in
-the ThingSpeak implementation.
+the ThingSpeak implementation. The ethical issues associated with the
+measurement and storage of biopotential measurements, and user data in general,
+must also be considered

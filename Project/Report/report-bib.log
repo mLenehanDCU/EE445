@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.4.24)  25 APR 2019 14:45
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.4.24)  28 APR 2019 23:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1093,22 +1093,13 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 86
  [2
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 87
-.
- (./report-bib.lot)
-\tf@lot=\write5
-\openout5 = `report-bib.lot'.
-
- [3
-
-]
-Package tocbasic Info: character protrusion at lof deactivated on input line 88
+Package tocbasic Info: character protrusion at lof deactivated on input line 87
 .
  (./report-bib.lof)
-\tf@lof=\write6
-\openout6 = `report-bib.lof'.
+\tf@lof=\write5
+\openout5 = `report-bib.lof'.
 
- [4
+ [3
 
 ]
 chapter 1.
@@ -1127,13 +1118,25 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
-[5
+[4
 
 ]
 chapter 2.
-[6
+File: Images/Hardware/DrivenRightLeg.png Graphic file (type bmp)
+<Images/Hardware/DrivenRightLeg.png>
+File: Images/Hardware/InstrumentationAmplifier.png Graphic file (type bmp)
+<Images/Hardware/InstrumentationAmplifier.png>
+[5
 
 ]
+File: Images/Hardware/CircuitPhoto.jpg Graphic file (type bmp)
+<Images/Hardware/CircuitPhoto.jpg>
+ [6]
+File: Images/Hardware/BioamplifierBlockDiagram.png Graphic file (type bmp)
+<Images/Hardware/BioamplifierBlockDiagram.png>
+File: Images/Hardware/CircuitDiagram.png Graphic file (type bmp)
+<Images/Hardware/CircuitDiagram.png>
+ [7]
 chapter 3.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
@@ -1142,39 +1145,68 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 142.
- [7
+nput line 253.
+ [8
 
 ]
-Overfull \hbox (4.17563pt too wide) in paragraph at lines 209--210
+Overfull \hbox (14.97574pt too wide) in paragraph at lines 313--314
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.17563pt too wide) in paragraph at lines 336--337
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-(./report-bib.bbl [8]
-Underfull \hbox (badness 4556) in paragraph at lines 26--29
+[9]
+Overfull \hbox (36.57596pt too wide) in paragraph at lines 395--396
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[10]
+Overfull \hbox (47.37607pt too wide) in paragraph at lines 431--432
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.77612pt too wide) in paragraph at lines 432--433
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.3758pt too wide) in paragraph at lines 451--453
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[11] [12]
+chapter 4.
+(./report-bib.bbl [13
+
+]
+Underfull \hbox (badness 4556) in paragraph at lines 49--52
 []\TU/lmr/m/n/10.95 R. Inant, “ThingSpeakClient.ino,” 2013. [Online]. Avail-
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
- [9
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 507.
+ [14
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 507.
  (./report-bib.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 219.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 507.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 507.
 Package rerunfilecheck Info: File `report-bib.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 507.
  ) 
 Here is how much of TeX's memory you used:
- 28198 strings out of 492912
- 527564 string characters out of 6134893
- 957736 words of memory out of 5000000
- 31943 multiletter control sequences out of 15000+600000
- 541636 words of font info for 77 fonts, out of 8000000 for 9000
+ 28415 strings out of 492912
+ 530774 string characters out of 6134893
+ 976788 words of memory out of 5000000
+ 32155 multiletter control sequences out of 15000+600000
+ 541644 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 46i,7n,66p,9157b,1134s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,7n,66p,9157b,1770s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report-bib.pdf (9 pages).
+Output written on report-bib.pdf (14 pages).
